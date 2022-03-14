@@ -1,6 +1,5 @@
 # 프로그래머스 - 코딩테스트 연습 > 2019 KAKAO BLIND RECRUITMENT > 오픈채팅방
 from collections import defaultdict
-import json
 
 def solution(records):
 	answer = []
@@ -25,6 +24,7 @@ def solution(records):
 		"Enter": "님이 들어왔습니다.",
 		"Leave": "님이 나갔습니다."
 	}
+
 	for raw in log:
 		answer.append(f"{users[raw[0]]}{message[raw[1]]}")
 
