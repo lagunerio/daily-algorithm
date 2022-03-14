@@ -1,4 +1,4 @@
-# 코딩테스트 연습 > 2019 KAKAO BLIND RECRUITMENT > 오픈채팅방
+# 프로그래머스 - 코딩테스트 연습 > 2019 KAKAO BLIND RECRUITMENT > 오픈채팅방
 from collections import defaultdict
 import json
 
